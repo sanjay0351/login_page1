@@ -1,0 +1,67 @@
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    
+
+  }
+  .img1{
+    width: 650px;
+    height: 600px;
+}
+.p{
+    
+    padding: 65px 0px 0px 175px;
+}
+.div1{
+    
+    padding: 0px 0px 0px 175px;
+    
+}
+.div2{
+    height: 25px;
+}
+.div3{
+    height: 25px;
+}   
+
+h1{
+    padding: 0px 0px 0px 175px;
+}
+.pass{
+    padding: 0px 0px 0px 175px;
+}
+.button{
+    padding: 0px 0px 0px 175px;
+   
+    
+}
+.button1{
+    width: 316px;
+    height: 35px;
+    background-color: green;
+    border: none;
+    color:white;
+    border-radius: 5px;
+}
+.button3{
+    padding: 0px 0px 0px 175px;
+
+   
+    
+}
+.button4{
+    width: 316px;
+    height: 35px;
+    background-color:#202A44;
+    border: none;
+    color:white;
+    border-radius: 5px;
+}
+.footer{
+    padding: 100px 0px 0px 210px;
+
+}

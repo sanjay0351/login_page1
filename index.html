@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>
+    </title>
+</head> 
+    <body>
+        <form name="login">
+        <div class="row">
+            <div class="column">
+            <img class="img1" src="san.jpg" alt="">    
+            </div>
+            
+            <div class="column">
+              
+               <p class="p"> Welcome back</p>
+                <h1>Login to your account</h1>
+                
+                <div class="center"> 
+               <p class="pass"> Password</p> 
+            <div class="div1">
+                <input class="div3" type="password" placeholder="John.snow@gmail.com" size="39" name="password"></div>
+                </div>
+            
+                <div class="center">
+                  <p class="pass">  Email</p> 
+                    <div class="div1">
+                    <input class="div2" type="email" placeholder="********" size="39" name="username"> </div>
+                    </div>
+                    <br>
+                    <div class="pass">
+                    <input type="radio">Remender me  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">Forgot password?</a>
+                </div> <br>
+                <div class="button">
+                <input class="button1" src="g.jpg" type="submit" value="Login now" onclick="check(this.form)"></div>
+                <br>
+                <div class="button3">
+                    <input class="button4" type="submit" value="G or sign-in with google"></div>
+                    <footer class="footer">Dont have an account <a href="">John free today</a> </footer>
+            </div>
+          </div>
+        </form>
+          <script language="javascript">
+            function check(form)
+            {
+             if(form.username.value == "san@gmail.com" && form.password.value == "1234")
+              {
+                window.open('Target.html')
+              }
+             else
+             {
+               alert("Please Enter Username and Password")
+              }
+            }
+            </script>
+    </body>
+</html>
